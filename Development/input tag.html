@@ -1,0 +1,101 @@
+<nav>
+    <a href="https://www.w3schools.com/sql/default.asp">w3school</a>
+     <a href="https://www.w3schools.com/sql/default.asp">w3school</a>
+      <a href="https://www.w3schools.com/sql/default.asp">w3school</a>
+       <a href="https://www.w3schools.com/sql/default.asp">w3school</a>
+        <a href="https://www.w3schools.com/sql/default.asp">w3school</a>
+</nav>
+
+<form autocomplete="off">
+    <div>
+        <label for="fullName">Full Name</label>
+        <input type="text" name="fullName" id="fullName"  placeholder="Enter Full Name" required
+            pattern="[A-Za-z]+">
+    </div>
+    <br>
+    <div>
+        <label for="">Phone no</label>
+        <input type="text" value="" placeholder="Enter phone no" pattern="[0-9]+" maxlength="10" minlength="10">
+
+    </div>
+    <br>
+    <div>
+        <label for="">Password</label>
+        <input type="text" pattern="[A-Z][A-Za-z0-9@#$%^& -_.,?]{5,12}" title="Please enter valid pattern">
+    </div>
+    <br>
+    <div>
+        <label for="">Email</label>
+        <!-- <input type="email" pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" required> -->
+         <input type="text" id="email" name="email"
+         pattern="[a-zA-Z0-9._%-+]+@gmail\.com$"
+         title="Only Gmail addresses allowed" required>
+    </div>
+    <br>
+    <div>
+        <label for="password1">password1</label>
+        <input type="text" id="password1" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).+$" maxlength="12">
+    </div>
+    <br>
+    <div>
+        <label for="">password2</label>
+        <input type="text" pattern="[a-z]?">
+    </div>
+        <!-- ^ — Start of string
+    (?=.*[a-z]) — At least one lowercase letter
+    (?=.*[A-Z]) — At least one uppercase letter
+    (?=.*[^a-zA-Z0-9]) — At least one special character
+    .+ — One or more of any characters
+    $ — End of string 
+    The n* quantifier matches any string that contains zero or more occurrences of n.
+    The n+ quantifier matches any string that contains at least one n.
+    The n? quantifier matches any string that contains zero or one occurrences of n.-->
+    <div>
+        <label for="">Hobbies</label>
+        <input type="checkbox" value="painting" name="" checked>Painting
+        <input type="checkbox" value="dancing" checked>Dancing
+        <input type="checkbox">Swimming
+        <input type="checkbox">Cycling
+    </div>
+    <br>
+    <div>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" required>Male
+        <input type="radio" name="gender" value="female" required>Female
+        <input type="radio" name="gender" value="female" required>Other
+
+    </div>
+    <br>
+    <div> <label for="">City</label>
+        <select name="" id="">
+            <option value="">Pune</option>
+            <option value="">Satara</option>
+            <option value="">Mumbai</option>
+        </select>
+        <select name="" id="">
+            <option value="">Pune</option>
+            <option value="" selected>Satara</option>
+            <option value="">Mumbai</option>
+        </select>
+
+        <select name="" id="">
+            <option value="" hidden></option>
+            <option value="">Pune</option>
+            <option value="">Satara</option>
+            <option value="">Mumbai</option>
+        </select>
+    </div>
+    <br>
+    <!-- single selction : Radio button
+     multiple selection : checkbox -->
+    <!-- <input type="button" value="Submit"> -->
+    <div> <input type="checkbox" required> T n C applied</div>
+    <textarea name="" id=""></textarea>
+    <progress max="100" value="70"></progress>
+    <button>Submit</button>
+    <input type="search">
+</form>
+
+<footer>
+    Terms and conditions are applied
+</footer>

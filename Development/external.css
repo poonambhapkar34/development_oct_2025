@@ -1,0 +1,46 @@
+
+#h1-container{
+    color: yellowgreen;
+}
+
+h2, p{
+    color: aqua;
+    font-size: 28px;
+    background-color: burlywood;
+}
+.main-container{
+    background-color: tan;
+    color: blueviolet;
+}
+
+div.main-container div span{
+    color: tomato;
+}
+
+div span.container1 div span h1{
+    color: rgb(236, 49, 11);
+}
+
+.text-decoration{
+    border: 1px solid blue;
+    text-align:center;
+    height: 50px;
+    width: 300px;
+    margin: auto;
+}
+.box-container{
+    border: 1px solid;
+    width: 271px;
+    height: 40px;
+    box-shadow: 5px 5px 10px orangered;
+    border-radius: 25px;
+    text-align: center;
+    padding: 14px 17px;
+    /* margin-left: 22px; */
+    margin: 17px;
+    cursor: pointer;
+}
+.text-container{
+    column-rule: 3px solid #ff004d;
+    columns: 4;
+}

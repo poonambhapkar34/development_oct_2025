@@ -1,0 +1,12 @@
+.border-types{
+    border: 1px solid brown;
+}
+body{
+    background-color: thistle;
+}
+.div1{
+    border: 1px solid blue;
+    width: 50px;
+    background-color: aquamarine;
+    opacity: 0.4;
+}

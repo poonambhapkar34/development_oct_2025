@@ -1,0 +1,41 @@
+p::first-line{
+    color: brown;
+    font-size: 20px;
+}
+/* div::first-letter{
+    color: tomato;
+    font-size: 40px;
+} */
+h1::before{
+    content: '*';
+}
+ul li::marker{
+    color: yellow;
+    font-size: 20px ;
+}
+h2::selection{
+    background-color: aqua;
+    color: red;
+}
+/* div ol li:nth-child(2) {
+    color: yellow;
+} */
+/* .sec-iem{
+    color: yellow;
+} */
+/* div ol li:nth-child(2n){
+    background-color: aquamarine;
+} */
+ /* even rown */
+ li:nth-child(2n){
+    color: brown;
+ }
+ /* an+b a=interval, n = 0,1,2.., b= starting point/index */
+ /* odd number */
+
+ li:nth-child(2n+1){ 
+    color: blue;
+ }
+   li:nth-child(3){
+    color:yellow;
+ }

@@ -1,0 +1,30 @@
+
+/* elelment : pseudo states{
+} */
+
+a:link{
+    color: yellow;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color:blueviolet
+}
+a:visited{
+    color: chartreuse;
+}
+
+input:focus {
+  border: 2px solid blue !important;
+   outline: none;  /* Removes default outline on focus*/
+   background-color: aliceblue;
+}
+
+div:hover{
+    background-color: aquamarine;
+    cursor:grab;
+}
+p:first-child{
+    color: yellow;
+}
