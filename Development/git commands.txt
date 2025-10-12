@@ -1,0 +1,23 @@
+
+To Fatal error very first time >>
+Repository : (Folder which consists of multiple branches)
+To create branch use below commands:
+1 .git branch test3 >> It will create test3 branch as  replica of current.
+   git checkout -b test6Poonam
+   git checkout test -b testPoonam7
+git add
+git commit
+git push
+
+
+changes >> git add . (It stages all the files together)
+git add test1.html  >>If want to add only one file 
+git add test2\test1.html >> If want to add file from folder
+
+git commit -m "txt msg "
+
+git push
+
+git fetch >> To fetch recent branch changes  
+
+If we click on sync chanes >> It will do push and pull together.
