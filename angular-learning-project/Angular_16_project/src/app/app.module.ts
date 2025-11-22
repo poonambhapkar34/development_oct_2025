@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FirstComponent } from './first/first.component';
+import { LearntypescriptComponent } from './learntypescript/learntypescript.component'; //import
 
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [ //components/pipes/directives
+    AppComponent,
+    FirstComponent,
+    LearntypescriptComponent
   ],
-  imports: [
+  imports: [ //modules
     BrowserModule,
     AppRoutingModule
   ],
