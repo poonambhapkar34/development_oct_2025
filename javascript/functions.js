@@ -31,8 +31,9 @@ function add(a,b){
      }
   }
  // console.log('d',d);
-  
+  return result;
 }
 
-add(10,20);
+let res = add(10,20);
 add(30,50);
+
